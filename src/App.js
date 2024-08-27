@@ -5,7 +5,6 @@ import Home from "./components/Home/Home";
 import Skills from "./components/Skills/Skills";
 import Project from "./components/Projects/Project1";
 import Experience from "./components/Experiences/Experience1";
-import Footer from "./components/Footer";
 import Certification from "./components/Certifications/Certification1"
 import {
   BrowserRouter as Router,
@@ -44,7 +43,6 @@ function App() {
           <Route path="/Certifications" element={<Certification />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
