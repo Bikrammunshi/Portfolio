@@ -31,12 +31,13 @@ function Home() {
             
             
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
+              {/*<img
                 src={"https://github.com/Bikrammunshi/Portfolio-Public-Files/blob/main/pic_edited-removebg-preview.png?raw=true"}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "350px" }}
               />
+  */}
             </Col>
           </Row>
         </Container>
