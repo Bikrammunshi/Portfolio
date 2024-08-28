@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 
 function ExperienceCards(props) {
   return (
-    <Card className="experience-card-view" style={{ width: '65rem' }}>
+    <Card className="experience-card-view" style={{ width: 'auto' }}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
       <Card.Img
         variant="top"

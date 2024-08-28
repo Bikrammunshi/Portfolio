@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 
 function certificationCards(props) {
   return (
-    <Card className="certification-card-view" style={{ width: '65rem' }}>
+    <Card className="certification-card-view" style={{ width: 'auto' }}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
       <Card.Img
         variant="top"

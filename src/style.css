@@ -645,15 +645,15 @@ button:focus {
 .experience-section {
   position: relative !important;
   padding-top: 110px !important;
-  padding-bottom: 320px !important;
+  padding-bottom: 175px !important;
   background-image: var(--section-background-color) !important;
 }
 
 .experience-card {
   padding-top: 50px !important;
-  padding-bottom: 500px !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-bottom: 5px !important;
+  padding-left: 20px !important;
+  padding-right: 5px !important;
   height: auto !important;
 }
 
@@ -663,7 +663,7 @@ button:focus {
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: auto !important;
+  height: 100% !important;
 }
 .experience-card-view:hover {
   transform: auto !important;
