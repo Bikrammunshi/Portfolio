@@ -26,6 +26,21 @@ function certifications() {
             </Certification>
           </Col>
         </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col md={9} className="certification-card">
+            <Certification   
+            imgPath = {"https://github.com/Bikrammunshi/Portfolio-Public-Files/blob/main/secops_group_logo.jpg?raw=true"}
+            isBlog={false}
+              title="Certified AppSec Practitioner (CAP)"
+              subtitle={'The SecOps Group\n November 2024\n'}
+              description={"This certification focuses on various aspects of application security \n\n Skills: \n\tCybersecurity \n\t OWASP \n\n"}
+              ghLink = "https://drive.google.com/file/d/1nZSniPmMJyELyXb2jSP-pqtOyCfvEjqY/view?usp=sharing"
+             >
+            </Certification>
+          </Col>
+        </Row>
+
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Col md={9} className="certification-card">
             <Certification   

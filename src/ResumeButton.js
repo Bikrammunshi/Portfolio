@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import './style.css';
 
 function ResumeButton() {
-  const resumeUrl = 'https://drive.google.com/file/d/1Z4NYOOEuvQZWpwnqMDd3WMf4-0NfssxT/view?usp=sharing';
+  const resumeUrl = 'https://drive.google.com/file/d/1F0ajT7XPgnv-jwHK3dKjxf7Y0VhUwp5V/view?usp=sharing';
 
   return (
     <div className="resume-section">

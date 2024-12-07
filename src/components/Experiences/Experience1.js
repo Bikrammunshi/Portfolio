@@ -32,7 +32,7 @@ function Experiences() {
             imgPath = {"https://github.com/Bikrammunshi/Portfolio-Public-Files/blob/main/coding%20ninjas.jpeg?raw=true"}
             isBlog={false}
               title="President"
-              subtitle={'Coding Ninja: KIIT Chapter\nJuly 2024-Present\n'}
+              subtitle={'Coding Ninja: KIIT Chapter\nJuly 2024 - December 2024\n'}
               description={'As the President of the Coding Ninjas: KIIT Chapter at KIIT, I have spearheaded a series of remarkable technical initiatives. \n\n Skills: \n\t Team Management\n\t Leadership'}
             >
             </Experience>
@@ -59,10 +59,27 @@ function Experiences() {
             <Experience   
             imgPath = {"https://github.com/Bikrammunshi/Portfolio-Public-Files/blob/main/tesltra.jpeg?raw=true"}
             isBlog={false}
-              title="Virtual Internship"
+              title="CyberSecurity Job Simulation"
               subtitle={'Telstra\nOctober 2023\n'}
-              description={"Learnt about various cybersecurity concepts \n\n Skills: \n\tCompliance \n\t Governance \n\t Incident Triange \n\t Network Analysis \n\t Root Cause Analysis \n\t Security Engineering\n\n"}
+              description={"Understanding of the basic concepts of a malware attack. \n\n Skills:\n\t Responding to a malware attack \n\t Analysing the attack \n\t Mitigating the attack \n\t Incident Postmortem\n\n"}
               ghLink = "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Telstra%20AU/RNhbu8QnDzthwynEf_Telstra_ZnqZmkRg24sY6EyQp_1698154181198_completion_certificate.pdf"
+            >
+            </Experience>
+          </Col>
+           
+        </Row>
+
+        
+        
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col md={9} className="Experience-card">
+            <Experience   
+            imgPath = {"https://github.com/Bikrammunshi/Portfolio-Public-Files/blob/main/aig_logo.jpg?raw=true"}
+            isBlog={false}
+              title="CyberSecurity Job Simulation"
+              subtitle={'AIG Shields\nOctober 2023\n'}
+              description={"Understanging the basic concepts of zero day vulnerability and ransomeware. \n\n Skills:\n\t Responding to zero day vulnerability\n\n"}
+              ghLink = "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/AIG/2ZFnEGEDKTQMtEv9C_AIG_ZnqZmkRg24sY6EyQp_1697935474694_completion_certificate.pdf"
             >
             </Experience>
           </Col>
@@ -74,15 +91,31 @@ function Experiences() {
             <Experience   
             imgPath = {"https://github.com/Bikrammunshi/Portfolio-Public-Files/blob/main/mastercard.jpeg?raw=true"}
             isBlog={false}
-              title="Virtual Internship"
+              title="CyberSecurity Job Simulation"
               subtitle={'Mastercard\nSpetember 2023\n'}
-              description={"Learnt what is phishing and how to spread awarness and protect ourselve from different types of phishing \n\n Skills: \n\tAnti-phishing \n\n"}
+              description={"Learnt what is phishing and how to spread awarness and protect ourselve from different types of phishing \n\n Skills: \n\t Design a phishing email \n\t Interpret phishing simulation results \n\n"}
               ghLink = "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/mastercard/vcKAB5yYAgvemepGQ_Mastercard_ZnqZmkRg24sY6EyQp_1695117292893_completion_certificate.pdf"
             >
             </Experience>
           </Col>
            
         </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col md={9} className="Experience-card">
+            <Experience   
+            imgPath = {"https://github.com/Bikrammunshi/Portfolio-Public-Files/blob/main/anz_logo.jpg?raw=true"}
+            isBlog={false}
+              title="CyberSecurity Job Simulation"
+              subtitle={'ANZ\n June 2023\n'}
+              description={"Undersating of social engineering and digital investigation. \n\n Skills: \n\t Social Enigneering Investigation \n\n"}
+              ghLink = "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ANZ/Hf4QMESoFeQwXPsiH_ANZ%20Australia_ZnqZmkRg24sY6EyQp_1687507189811_completion_certificate.pdf"
+            >
+            </Experience>
+          </Col>
+           
+        </Row>
+
 
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Col md={9} className="Experience-card">

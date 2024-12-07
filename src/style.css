@@ -1,17 +1,17 @@
 html {
   --section-background-color: linear-gradient(
     to bottom right,
-    rgba(18,28,43, 255),
-    rgba(18,28,43,255)
+    rgba(0,0,0, 255),
+    rgba(0,0,0,255)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(49, 62, 82, 1),
-    rgba(49, 62, 82, 1)
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
   );
 
-  --imp-text-color: #72a724;
+  --imp-text-color: #FFA500;
 }
 
 .purple {
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #313e52;
+  background-color: #000000;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(18,28,43, 255);
+  background: rgb(0, 0, 0);
 }
 
 /* Handle */
@@ -68,7 +68,7 @@ button:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 255, 0, 0.582);
+  background: rgba(255, 165, 0, 1);
   border-radius: 14px;
 }
 
@@ -76,9 +76,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: rgba(18,28,43, 255) !important;
+  background-color: rgb(0, 0, 0) !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(18,28,43, 255) !important;
+  box-shadow: 0px 10px 10px 0px rgb(0, 0, 0) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #72a724 !important;
+  background-color: #FFA500 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -144,7 +144,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #000000 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #72a724;
+  background: #FFA500;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -282,12 +282,12 @@ button:focus {
 }
 
 .main-name {
-  color: #72a724;
+  color: #FFA500;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #72a724 !important;
+  color: #FFA500 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -373,7 +373,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #1b1a2ea9;
+  background: #000000a9;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -381,7 +381,7 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #72a724;
+  box-shadow: 0 0 15px #FFA500;
 }
 
 .home-social-icons:hover {
@@ -441,7 +441,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #72a724 !important;
+  color: #FFA500 !important;
 }
 /* --------- */
 /* Projects */
@@ -462,7 +462,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #72a724 !important;
+  box-shadow: 0 4px 5px 3px #FFA500 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -473,7 +473,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #0056b3 !important;
+  box-shadow: 0 4px 4px 5px #ff0000 !important;
 }
 
 .blog-card {
@@ -486,7 +486,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px #72a724 !important;
+  box-shadow: 0 3px 3px 2px #FFA500 !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -522,12 +522,12 @@ button:focus {
 .btn-primary {
   color: #000000 !important;
   background-color: #b9c1c6 !important;
-  border-color: #446e2c !important;
+  border-color: #FFA500 !important;
 }
 
 .btn-primary:hover {
   color: #ffffff !important;
-  background-color: #0056b3!important;
+  background-color: #b30000!important;
   border-color: #031c37 !important;
 }
 .btn:focus {
@@ -575,7 +575,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid #72a724 !important;
+  border: 2.2px solid #FFA500 !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -605,7 +605,7 @@ button:focus {
 
 
 .like-btn {
-  background: linear-gradient(60deg, #72a724, #1d2f02) !important; /* Gradient background */
+  background: linear-gradient(60deg, #FFA500, #cb7607) !important; /* Gradient background */
   border: none !important; /* Remove border if desired */
   color: white !important; /* Text color */
   padding: 0.50rem 2.5rem !important;
@@ -621,7 +621,7 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background: linear-gradient(60deg, #0056b3, #011f3e) !important;
+  background: linear-gradient(60deg, #b30000, #3e0e01) !important;
 }
 
 .animate-like {
@@ -658,7 +658,7 @@ button:focus {
 }
 
 .experience-card-view {
-  box-shadow: 0 4px 5px 3px #72a724!important;
+  box-shadow: 0 4px 5px 3px #FFA500!important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -668,7 +668,7 @@ button:focus {
 .experience-card-view:hover {
   transform: auto !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #0056b3!important;
+  box-shadow: 0 4px 4px 5px #ff0000!important;
   height:auto
 }
 .experience-heading {
@@ -699,7 +699,7 @@ button:focus {
 }
 
 .certification-card-view {
-  box-shadow: 0 4px 5px 3px #72a724!important;
+  box-shadow: 0 4px 5px 3px #FFA500!important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -709,7 +709,7 @@ button:focus {
 .certification-card-view:hover {
   transform: auto !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #0056b3 !important;
+  box-shadow: 0 4px 4px 5px #ff0000 !important;
   height:auto
 }
 .certification-heading {
