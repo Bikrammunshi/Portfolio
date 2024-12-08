@@ -8,14 +8,14 @@ const FormContainer = styled.div`
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
-  background-color: rgba(18,28,43, 255);
+  background-color: rgba(0,0,0,0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
 
 const FormTitle = styled.h2`
   text-align: center;
   margin-bottom: 20px;
-  color: #72a724;
+  color: #FFA500;
 `;
 
 const FormGroup = styled.div`
@@ -51,12 +51,12 @@ const Button = styled.button`
   padding: 10px;
   border-radius: 4px;
   border: none;
-  background-color: #b9c1c6;
+  background-color: #FFA500;
   color: #000;
   font-size: 16px;
   cursor: pointer;
   &:hover {
-    background-color: #0056b3;
+    background-color: #FF0000;
     color: #fff
   }
 `;

@@ -10,7 +10,7 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img"
       style={{ width: '318px', height: '200px', marginRight: '10px' }} />
       <Card.Body>
-        <Card.Title style={{ marginTop: '10px',color: "#72a724" }}>{props.title}</Card.Title>
+        <Card.Title style={{ marginTop: '10px',color: "#FFA500" }}>{props.title}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted" style={{ marginTop: '10px'}}>{props.subtitle}</Card.Subtitle>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}

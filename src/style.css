@@ -360,7 +360,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: #b9c1c6 !important;
+  background: #FFA500 !important;
   border-radius: 100% !important;
   transition: 0.5s !important;
 }
@@ -381,13 +381,14 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #FFA500;
+  box-shadow: 0 0 15px #FF0000;
 }
 
 .home-social-icons:hover {
   background: #ffffffff;
   box-shadow: 0 0 5px #ffffff;
   text-shadow: 0 0 2px #ffffff;
+  
 }
 
 .social-icons {
