@@ -3,7 +3,7 @@ import Preloader from "./components/Pre";
 import Navbar from "./components/Navbar";
 import Particle from "./components/Particle";
 import SmoothScroll from "./components/Layout/SmoothScroll";
-import NoiseOverlay from "./components/Layout/NoiseOverlay";
+
 
 // Sections
 import HeroSection from "./components/Sections/HeroSection";
