@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiTryhackme } from "react-icons/si";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
