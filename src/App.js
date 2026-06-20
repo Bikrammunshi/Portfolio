@@ -1,51 +1,63 @@
 import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
+import Preloader from "./components/Pre";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
-import Skills from "./components/Skills/Skills";
-import Project from "./components/Projects/Project1";
-import Experience from "./components/Experiences/Experience1";
-import Certification from "./components/Certifications/Certification1"
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
+import Particle from "./components/Particle";
+import SmoothScroll from "./components/Layout/SmoothScroll";
+import NoiseOverlay from "./components/Layout/NoiseOverlay";
+
+// Sections
+import HeroSection from "./components/Sections/HeroSection";
+import AboutSection from "./components/Sections/AboutSection";
+import ExperienceSection from "./components/Sections/ExperienceSection";
+import ProjectsSection from "./components/Sections/ProjectsSection";
+import CertificationsSection from "./components/Sections/CertificationsSection";
+import ContactSection from "./components/Sections/ContactSection";
+import FooterSection from "./components/Sections/FooterSection";
+
+import "./index.css";
 import "./style.css";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "./animations.css";
+import "./components/Particle.css"; // Preserving the canvas particle styles
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
 
     return () => clearTimeout(timer);
   }, []);
 
-  
   return (
-    <Router>
+    <div className="App" id={load ? "no-scroll" : "scroll"}>
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/Experiences" element={<Experience />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Certifications" element={<Certification />} />
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
-      </div>
-    </Router>
+      
+      {/* Background Effect Layer */}
+      <Particle />
+      
+      {/* App Content Layer */}
+      <SmoothScroll>
+        <div style={{ position: "relative", zIndex: 1 }}>
+          <Navbar />
+          
+          <main>
+            <HeroSection />
+            
+            {/* Sections */}
+            <AboutSection />
+            <ExperienceSection />
+            <ProjectsSection />
+            <CertificationsSection />
+            <ContactSection />
+            
+          </main>
+
+          <FooterSection />
+        </div>
+      </SmoothScroll>
+    </div>
   );
 }
 
